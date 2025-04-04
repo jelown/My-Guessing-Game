@@ -1,0 +1,82 @@
+/*Jaylon Kirby R. Froa*/
+/*BSIT-2A*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000; /* Black background */
+  color: #32CD32; /* Lime green text */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Styling the container */
+.container {
+  border: 1px solid #32CD32;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Styling the header */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Styling the paragraph text */
+p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Styling the input field */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #32CD32;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  background-color: #000;
+  color: #32CD32;
+}
+
+/* Styling the submit button */
+button {
+  padding: 10px 20px;
+  background-color: #32CD32;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Styling the feedback message */
+.feedback {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
